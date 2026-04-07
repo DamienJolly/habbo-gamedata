@@ -1,5 +1,5 @@
 {
-    "name": "damien/habbo-gamedata",
+    "name": "damienjolly/habbo-gamedata",
     "description": "Reusable Habbo gamedata domain package for Laravel.",
     "type": "library",
     "license": "MIT",
