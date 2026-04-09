@@ -4,9 +4,7 @@ return [
     'routes' => [
         'auto_register' => true,
     ],
-    'hashes' => [
-        'path' => '/gamedata/hashes',
-    ],
+    'flash_client_path' => '/gordon/',
     'external_texts' => [
         'cache_key' => 'gamedata.external_flash_texts',
         'path' => '/gamedata/external_flash_texts',
