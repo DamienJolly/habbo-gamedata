@@ -12,6 +12,9 @@ use Illuminate\Support\Facades\Route;
 
 Route::get(GameDataConfig::routePath('hashes'), [HashesController::class, 'index']);
 
+Route::get(GameDataConfig::routePath('external_variables') . '/{hash?}', [ExternalVariablesController::class, 'show'])
+    ->where('hash', '.*');
+
 Route::get(GameDataConfig::routePath('external_texts') . '/{hash?}', [ExternalTextsController::class, 'show'])
     ->where('hash', '.*');
 

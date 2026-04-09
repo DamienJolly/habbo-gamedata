@@ -34,7 +34,7 @@ class ExternalVariablesService
                 $lines[] = '';
             }
 
-            $lines[] = 'flash.client.url=' . GameDataConfig::path('flash_client');
+            $lines[] = 'flash.client.url=' . GameDataConfig::path('flash_client') . '/';
             $lines[] = 'new.user.flow.roomTypes=10,11,12';
             $lines[] = 'external.texts.txt=' . $this->resolveHashedUrl(ExternalTextsService::class);
             $lines[] = 'external.figurepartlist.txt=' . $this->resolveHashedUrl(FigureDataService::class);
