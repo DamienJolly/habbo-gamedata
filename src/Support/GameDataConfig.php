@@ -5,6 +5,7 @@ namespace Habbo\Gamedata\Support;
 class GameDataConfig
 {
     private const DEFAULT_PATHS = [
+        'flash_client' => '/gordon/',
         'hashes' => '/gamedata/hashes',
         'external_texts' => '/gamedata/external_flash_texts',
         'external_variables' => '/gamedata/external_variables',
